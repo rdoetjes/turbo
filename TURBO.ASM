@@ -3,7 +3,7 @@
 .DATA
 	TERROR	db 'USAGE: TURBO <1|0>', 10, 13, '$'
 	TON db 'TURBO ON', 10, 13, '$'
-	TOFF db ' TURBO OFF', 10, 13, '$'
+	TOFF db 'TURBO OFF', 10, 13, '$'
 
 .CODE
 
