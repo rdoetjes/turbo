@@ -6,6 +6,10 @@
 	TOFF db ' TURBO OFF', 10, 13, '$'
 
 .CODE
+
+;TURBO 0 disables turbo on Compaq TURBO 1 (or any char not 0) will enable turbo on Compaq.
+;When TURBO is started without an argument a usage message is shown.
+;This is an easy beginner program that contains most basics in assembly
 ORG 100h
 
 MAIN PROC
